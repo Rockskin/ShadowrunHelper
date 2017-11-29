@@ -1,0 +1,29 @@
+<div>
+  <nav class="collapse show navbar navbar-light bg-faded" [@collapse]="collapse">
+    <div class="row">
+      <div class="col-md-11">
+        <div class="d-flex flex-row">
+          <a class="p-2 navbar-brand" href="#">
+            <img src="https://lh4.ggpht.com/f9vbzWCYsSM076leLt_s8Yo1TOOf_sjqvgWm4Zkb0jwvWfNyf2U7VUNcm0RmsZoIH3M=w300" width="60" height="60"
+              alt="">
+          </a>
+          <a class="p-2 dropdown-toggle nav-link" id="dropdownMenuPersonnage" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Gestion des Personnages
+          </a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuPersonnage">
+            <a class="dropdown-item" href="#" (click)="GoBlankCharacter()">Nouveau personnage</a>
+            <a class="dropdown-item" href="#" (click)="GoBuildMethod()">Outil de création de nouveau personnage</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1">
+        <span [hidden]="collapse=='closed'" (click)="toggleCollapse()" class="float-right fa fa-times fa-2x justify-content-end"></span>
+      </div>
+    </div>
+  </nav>
+  
+  <div>
+    <span [hidden]="collapse=='open'" (click)="toggleCollapse()" class="float-right fa fa-bars fa-2x"></span>
+  </div>
+
+  </div>

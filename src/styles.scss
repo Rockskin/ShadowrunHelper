@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+//App-Background
+$base-bg-shadowrun-color: #123;
+$base-text:#fff;
+
+
+//Icons-color
+$light-icon: #fff;
+
+//Nav-Bar
+$base-nav-bar-color:#123;
+$base-nav-text-color:#fff;
+$base-nav-bg : rgba(adjust-hue( $base-bg-shadowrun-color, 50%), .5);
+
+//card
+$base-card-bg : rgba(adjust-hue( $base-bg-shadowrun-color, 25%), .7);
+
+//box-shadow
+$base-shadow-color:lighten($base-bg-shadowrun-color, 90%);
+$end-shadow-color:lighten($base-bg-shadowrun-color, 50%);

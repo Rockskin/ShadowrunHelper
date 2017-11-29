@@ -1,0 +1,16 @@
+@import '../../styles.scss';
+
+#blankCharracter{
+    padding:15px;
+    .card{
+        box-shadow: 0 0 5px $base-shadow-color,
+                    0 0 2px $base-shadow-color,
+                    0 0 5px $end-shadow-color,
+                    0 0 10px $end-shadow-color,
+                    0 0 15px $end-shadow-color,
+                    0 0 20px $end-shadow-color,
+                    0 0 35px $end-shadow-color;
+        background-color: $base-card-bg;
+        padding:15px;
+    }
+}

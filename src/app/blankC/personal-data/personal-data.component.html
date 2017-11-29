@@ -1,0 +1,94 @@
+<div id="personalData" class="row">
+  <!--<div class="col-md-12 alert alert-info">
+    <h4>DEBUG PANEL</h4>
+    <br/>{{blankCharacterComponent.appComponent.shaowrunCharacter.Name}}
+    <br/>{{blankCharacterComponent.appComponent.shaowrunCharacter.MetaType}}
+    <br/>{{blankCharacterComponent.appComponent.shaowrunCharacter.Age}}
+    <br/>{{blankCharacterComponent.appComponent.shaowrunCharacter.Sexe}}
+    <br/>{{blankCharacterComponent.appComponent.shaowrunCharacter.Sizes}}
+    <br/>{{blankCharacterComponent.appComponent.shaowrunCharacter.Weights}}
+    <br/>{{blankCharacterComponent.appComponent.shaowrunCharacter.Reputation}}
+    <br/>{{blankCharacterComponent.appComponent.shaowrunCharacter.Rumour}}
+    <br/>{{blankCharacterComponent.appComponent.shaowrunCharacter.Fame}}
+    <br/>{{blankCharacterComponent.appComponent.shaowrunCharacter.CurentKarma}}
+    <br/>{{blankCharacterComponent.appComponent.shaowrunCharacter.TotalKarma}}
+    <br/>{{blankCharacterComponent.appComponent.shaowrunCharacter.FreeBox}}
+    
+  </div>-->
+    <div class="col-md-12">
+    <div>
+      <div>
+        <h4>
+          Données personnelles
+        </h4>
+        <div class="card-text">
+          <div class="row">
+            <div class="col-md-7">
+              <label>Nom/Pseudo</label>
+              <input class="form-control" name="nameBox" #nameBox (keyup)="onKey(nameBox)">
+            </div>
+            <div class="col-md-5">
+              <label>Métatype/Ethnie</label>
+              <input class="form-control" name="metaTypeBox" #metaTypeBox (keyup)="onKey(metaTypeBox)">
+              <div></div>
+            </div>
+
+          </div>
+          <div class="row">
+            <div class="col-md-3">
+              <label>Âge</label>
+              <input class="form-control" name="ageBox" #ageBox (keyup)="onKey(ageBox)">
+            </div>
+            <div class="col-md-3">
+              <label>Sexe</label>
+              <input class="form-control" name="sexeBox" #sexeBox (keyup)="onKey(sexeBox)">
+            </div>
+
+            <div class="col-md-3">
+              <label>Taille</label>
+              <input class="form-control" name="tailleBox" #tailleBox (keyup)="onKey(tailleBox)">
+            </div>
+
+            <div class="col-md-3">
+              <label>Poids</label>
+              <input class="form-control" name="poidsBox" #poidsBox (keyup)="onKey(poidsBox)">
+            </div>
+
+          </div>
+          <div class="row">
+            <div class="col-md-3">
+              <label>Réputation</label>
+              <input class="form-control" name="reputationBox" #reputationBox (keyup)="onKey(reputationBox)">
+            </div>
+            <div class="col-md-3">
+              <label>Rumeur</label>
+              <input class="form-control" name="rumeurBox" #rumeurBox (keyup)="onKey(rumeurBox)">
+            </div>
+
+            <div class="col-md-3">
+              <label>Renommée</label>
+              <input class="form-control" name="renommeeBox" #renommeeBox (keyup)="onKey(renommeeBox)">
+            </div>
+
+            <div class="col-md-3">
+              <label>Karma/total</label>
+
+              <div class="input-group">
+                <input class="form-control" name="curentKarmaBox" #curentKarmaBox (keyup)="onKey(curentKarmaBox)">
+                <input class="form-control" name="totalKarmaBox" #totalKarmaBox (keyup)="onKey(totalKarmaBox)">
+              </div>
+            </div>
+
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <label>Divers</label>
+              <textarea  class="form-control" name="diversBox" #diversBox (keyup)="onKey(diversBox)"></textarea>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
