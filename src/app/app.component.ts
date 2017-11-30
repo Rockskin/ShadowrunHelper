@@ -65,12 +65,60 @@ export class ShaowrunCharacter{
 
 
 }
-
+export class Skill{
+  Name:string;
+  Attribute:AttributeEnum;
+  Category:CategoryEnum;
+  Default:boolean;
+  Skillgroup:SkillGroupEnum;
+  specs:string[];
+}
 export class ShadwrunBuildOption{
   CreationType:CreationType; //Free or Rules
+}
+// Enum Zone //
+export enum AttributeEnum{
+  "Body",
+  "Agility",
+  "Reaction",
+  "Strength",
+  "Willpower",
+  "Logic",
+  "Intuition"
+}
+export enum CategoryEnum{
+  "Combat Active",
+  "Physical Active",
+  "Social Active",
+  "Magical Active",
+  "Pseudo-Magical Active",
+  "Resonance Active",
+  "Technical Active",
+  "Vehicle Active",
+  "Academic",
+  "Interest",
+  "Language",
+  "Professional",
+  "Street"
+}
+export enum SkillGroupEnum{
+  "Acting",
+  "Athletics",
+  "Biotech",
+  "Close Combat",
+  "Conjuring",
+  "Cracking",
+  "Electronics",
+  "Enchanting",
+  "Firearms",
+  "Influence",
+  "Engineering",
+  "Outdoors",
+  "Sorcery",
+  "Stealth",
+  "Tasking"
 
 }
-
 export enum CreationType{
   Free,
   Rules
