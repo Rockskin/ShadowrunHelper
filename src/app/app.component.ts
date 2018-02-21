@@ -9,6 +9,7 @@ export class AppComponent {
   
   blankCharacter:boolean = false;
   buildMethod:boolean = false;
+  vampire:boolean = false;
 
   shaowrunCharacter:ShaowrunCharacter = new ShaowrunCharacter();
 
@@ -16,9 +17,14 @@ export class AppComponent {
     this.ShowModule('blankCharacter');
   }
 
+  ShowVampire(){
+    this.ShowModule('vampire');
+  }
+
   ShowModule(moduleName:string){
     this.blankCharacter = (moduleName == 'blankCharacter');
     this.buildMethod = (moduleName == 'buildMethod');
+    this.vampire = (moduleName == 'cologne');
   }
 
 }

@@ -3,19 +3,28 @@
     <div class="row">
       <div class="col-md-11">
         <div class="d-flex flex-row">
-          <a class="p-2 navbar-brand" href="#">
+         <!--<a class="p-2 navbar-brand" href="#">
             <img src="https://lh4.ggpht.com/f9vbzWCYsSM076leLt_s8Yo1TOOf_sjqvgWm4Zkb0jwvWfNyf2U7VUNcm0RmsZoIH3M=w300" width="60" height="60"
               alt="">
           </a>
+          
           <a class="p-2 dropdown-toggle nav-link" id="dropdownMenuPersonnage" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Gestion des Personnages
+          </a> 
+        -->
+          <a class="p-2 navbar-brand" href="#">
+            <img src="http://theonyxpath.com/avatar/20th%20Anniversary/2011~Vampire%20The%20Masquerade/img.php?h=120&w=120&img=1~V20%20Dark%20Ages.png" width="60" height="60"
+              alt="">
           </a>
+          
+          <a class="" href="#" (click)="GoVampireChronicle("cologne")">Cologne by nignt</a>
+        </div>
           <div class="dropdown-menu" aria-labelledby="dropdownMenuPersonnage">
             <a class="dropdown-item" href="#" (click)="GoBlankCharacter()">Nouveau personnage</a>
             <a class="dropdown-item" href="#" (click)="GoBuildMethod()">Outil de création de nouveau personnage</a>
           </div>
         </div>
-      </div>
+       
       <div class="col-md-1">
         <span [hidden]="collapse=='closed'" (click)="toggleCollapse()" class="float-right fa fa-times fa-2x justify-content-end"></span>
       </div>

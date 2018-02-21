@@ -44,6 +44,9 @@ export class TopNavComponent implements OnInit {
   GoBuildMethod(){
     this.appComponent.ShowModule('buildMethod');
   }
+  GoVampireChronicle(chronicle){
+    this.appComponent.ShowModule(chronicle);
+  }
   
 
 }
